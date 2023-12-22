@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import TitleApp from './components/TitleApp.vue'
 </script>
 
 <template>
-  <HelloWorld msg="helloword" />
+  <TitleApp />
 </template>
 
 <style scoped></style>
