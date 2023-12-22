@@ -1,9 +1,15 @@
-<script setup>
+<script>
 import TitleApp from './components/TitleApp.vue'
+import AppHero from './components/AppHero.vue'
+export default {
+  components: {
+    AppTitle
+  }
+}
 </script>
 
-<template>
-  <TitleApp />
+<template lang="">
+  <TitleApp></TitleApp>
 </template>
 
-<style scoped></style>
+<style lang=""></style>
